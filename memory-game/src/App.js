@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar/index'
 import Jumbotron from './components/Jumbotron';
+import CharacterCard from './components/CharacterCard';
 
 class App extends React.Component {
   render() {
@@ -8,6 +9,7 @@ class App extends React.Component {
       <div className="App">
         <Navbar />
         <Jumbotron />
+        <CharacterCard />
       </div>
     );
   }
