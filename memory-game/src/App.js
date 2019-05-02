@@ -7,9 +7,15 @@ import characters from './characters.json'
 
 class App extends React.Component {
 
-state = {
-  characters
-}
+  state = {
+    characters
+  }
+
+  shuffleCards = array =>{
+    const characters = array.sort(() => Math.random() - 0.5);
+
+    this.setState({ characters })
+  }
 
   render() {
     return (
@@ -22,6 +28,7 @@ state = {
             id={character.id}
             name={character.name}
             image={character.image}
+            onClick={this.shuffleCards}
           />
           )
           )}
