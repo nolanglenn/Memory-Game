@@ -1,9 +1,10 @@
 import React from 'react'
 import './style.css'
 
+
 function CharacterCard(props) {
     return (
-        <div className="character-card">
+        <div onClick={props.onClick} className="character-card">
             <img alt={props.name} src={props.image} />
         </div> 
     )

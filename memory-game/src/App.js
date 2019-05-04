@@ -11,10 +11,36 @@ class App extends React.Component {
     characters
   }
 
-  shuffleCards = array =>{
-    const characters = array.sort(() => Math.random() - 0.5);
+  // didComponentUpdate might work for running the shufflecards function
+  // componentDidUpdate = () => {
 
-    this.setState({ characters })
+  // }
+
+  // updateCharacter = id => {
+  //   let character = this.state.characters[id]
+  //   console.log(character.isClicked)
+  //   // Checks to see if the character has been guessed. If not, the game will reset
+  //   if(character.isClicked === 'false') {
+  //     character.isClicked = 'true'
+  //     console.log(character.isClicked)
+  //   } else if(character.isClicked === 'true'){
+  //     this.state.characters.forEach(character => {
+  //       character.isClicked = 'false'
+  //     });
+  //     alert('You guessed that character already! Try again.');
+  //   }
+  // }
+
+  // Randomly shuffle the card order
+  shuffleCards = () => {
+    let arr = this.state.characters;
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    this.setState({
+      characters: arr
+    })
   }
 
   render() {
@@ -24,12 +50,17 @@ class App extends React.Component {
         <Jumbotron />
         <Wrapper>
           {this.state.characters.map(character => (
-          <CharacterCard 
-            id={character.id}
-            name={character.name}
-            image={character.image}
-            onClick={this.shuffleCards}
-          />
+            <CharacterCard 
+              id={character.id}
+              name={character.name}
+              image={character.image}
+              key={character.id}
+              // onClick must be defined as a prop if you're calling it on a Component you made
+              onClick={() => {
+                // this.updateCharacter(character.id)
+                this.shuffleCards()
+              }}
+            />
           )
           )}
         </Wrapper>

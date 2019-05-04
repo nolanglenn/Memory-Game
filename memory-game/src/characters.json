@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "Cooper",
-        "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Agentdalecooper.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/en/5/50/Agentdalecooper.jpg",
+        "isClicked": "false"
     },
     {
         "id": 2,
         "name": "Audrey",
-        "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/AudreyHorne.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/en/0/0b/AudreyHorne.jpg",
+        "isClicked": "false"
     },
     {
         "id": 3,
         "name": "Laura",
-        "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Laura_Palmer.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/en/1/12/Laura_Palmer.jpg",
+        "isClicked": "false"
     },
     {
         "id": 4,
         "name": "Bobby",
-        "image": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b2/Bobby_Briggs.jpg/520px-Bobby_Briggs.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/it/thumb/b/b2/Bobby_Briggs.jpg/520px-Bobby_Briggs.jpg",
+        "isClicked": "false"
     },
     {
         "id": 5,
         "name": "Shelly",
-        "image": "https://upload.wikimedia.org/wikipedia/en/f/f8/Shelly_Johnson_in_Twin_Peaks.png"
+        "image": "https://upload.wikimedia.org/wikipedia/en/f/f8/Shelly_Johnson_in_Twin_Peaks.png",
+        "isClicked": "false"
     },
     {
         "id": 6,
         "name": "Big Ed",
-        "image": "https://vignette.wikia.nocookie.net/twinpeaks/images/4/41/Big-ed-hurley-everett-mcgill.jpg/revision/latest/scale-to-width-down/185?cb=20150922161825"
+        "image": "https://vignette.wikia.nocookie.net/twinpeaks/images/4/41/Big-ed-hurley-everett-mcgill.jpg/revision/latest/scale-to-width-down/185?cb=20150922161825",
+        "isClicked": "false"
     },
     {
         "id": 7,
         "name": "Norma",
-        "image": "https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks.jpg"
+        "image": "https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks.jpg",
+        "isClicked": "false"
     },
     {
         "id": 8,
         "name": "Bob",
-        "image": "https://nyoobserver.files.wordpress.com/2015/03/bobbay.png"
+        "image": "https://nyoobserver.files.wordpress.com/2015/03/bobbay.png",
+        "isClicked": "false"
     },
     {
         "id": 9,
         "name": "Leeland",
-        "image": "https://upload.wikimedia.org/wikipedia/en/2/23/LelandPalmerFWWM.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/en/2/23/LelandPalmerFWWM.jpg",
+        "isClicked": "false"
     },
     {
         "id": 10,
         "name": "Gordon",
-        "image": "https://www.3ammagazine.com/3am/wp-content/uploads/2017/08/gordon-cole.jpg"
+        "image": "https://www.3ammagazine.com/3am/wp-content/uploads/2017/08/gordon-cole.jpg",
+        "isClicked": "false"
     },
     {
         "id": 11,
         "name": "Harry",
-        "image": "https://pixel.nymag.com/imgs/daily/vulture/2015/10/08/08-harry-twin-peaks.w330.h330.2x.jpg"
+        "image": "https://pixel.nymag.com/imgs/daily/vulture/2015/10/08/08-harry-twin-peaks.w330.h330.2x.jpg",
+        "isClicked": "false"
     },
     {
         "id": 12,
         "name": "Andy",
-        "image": "https://vignette.wikia.nocookie.net/twinpeaks/images/9/90/Andy_002.jpg/revision/latest/scale-to-width-down/185?cb=20100422235317"
+        "image": "https://vignette.wikia.nocookie.net/twinpeaks/images/9/90/Andy_002.jpg/revision/latest/scale-to-width-down/185?cb=20100422235317",
+        "isClicked": "false"
     }
 ]
